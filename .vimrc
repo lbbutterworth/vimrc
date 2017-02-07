@@ -16,20 +16,34 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'
-Plugin 'kien/ctrlp.vim'
-Plugin 'Raimondi/delimitMate'
-Plugin 'ervandew/supertab'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-surround'
-Plugin 'mattn/emmet-vim'
-
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'vim-airline/vim-airline-themes'
+" Language
 Plugin 'pangloss/vim-javascript'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'tpope/vim-markdown'
+Plugin 'mxw/vim-jsx'
+
+" Completion
+Plugin 'raimondi/delimitmate'
+Plugin 'ervandew/supertab'
+Plugin 'mattn/emmet-vim'
+Plugin 'sirver/ultisnips'
+
+" Interface
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'
+Plugin 'kien/ctrlp.vim'
+
+" Integration
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+
+" Commands
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
 
 call vundle#end()
 filetype plugin indent on
